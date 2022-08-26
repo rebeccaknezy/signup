@@ -2,22 +2,26 @@ body{
     display: flex;
 }
 
-.logo{
+.picture{
     background-image: url("images/forest.jpg");
-    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 40%;
     height: 400px;
-    width: 250px;
-    /* find way to split  */
 }
-
-.name{
+.background{      
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 600;
     background-color: black;
     opacity: 50%;
     margin-top: 100px;
-    padding: 5px 40%;
     
 }
+.name{
+    text-align: center;
+}
+
+
