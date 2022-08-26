@@ -1,0 +1,23 @@
+body{
+    display: flex;
+}
+
+.logo{
+    background-image: url("images/forest.jpg");
+    background-size: 300px;
+    height: 400px;
+    width: 250px;
+    /* find way to split  */
+}
+
+.name{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background-color: black;
+    opacity: 50%;
+    margin-top: 100px;
+    padding: 5px 40%;
+    
+}
