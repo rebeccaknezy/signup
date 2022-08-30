@@ -1,5 +1,6 @@
 body{
     display: flex;
+    margin: 0;
 }
 
 .picture{
@@ -7,7 +8,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    width: 40%;
+    width: 35%;
     height: 400px;
 }
 .background{      
@@ -22,6 +23,30 @@ body{
 }
 .name{
     text-align: center;
+}
+
+.signup{
+    width: 65%;
+}
+
+.text{
+    font-size: 0.8rem;
+    padding: 75px 50px 30px 20px;
+    background-color: #f7f7f7;
+}
+
+.form{
+    font-size: 0.5rem;
+    padding: 20px 50px 15px 20px;
+}
+input, label{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.bottom{
+    background-color: #f7f7f7;
 }
 
 
